@@ -49,3 +49,25 @@ body {
   .feature {
       width: 200px;
   }
+  nav ul{
+    display:flex;
+    justify-content: space-between;
+    
+  }
+  nav{
+    position: sticky;
+    top:0;
+  }
+  article img{
+
+    float:left; margin: 0 25px 0 0;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .photos{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:1px;
+  }
